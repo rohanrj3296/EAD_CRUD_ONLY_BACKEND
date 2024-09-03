@@ -4,7 +4,7 @@ const cors=require('cors')
 const movieRouter = require('./routes/movieController')
 
 
-const url = 'mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbitit1?replicaSet=m101';
+const url = 'mongodb+srv://RJrjmongo123:RJrjmongo123@cluster0.nizajtj.mongodb.net/';
 const app = express()
 mongoose.connect(url)
 const con = mongoose.connection
